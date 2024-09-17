@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&display=swap" rel="stylesheet">
+    <title>Escape da Mansão</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Você entrou em uma mansão abandonada e assim que você entra você encontra dois caminhos, uma grande
+                escada e um longo corredor.
+                Por onde você vai?</p>
+            <img src="mansion.jpg" alt="um corredor abandonado de uma casa">
+            <button class="btn-proximo" data-proximo="1">Escada</button>
+            <button class="btn-proximo" data-proximo="2">Corredor</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você sobe as escadas e encontra duas portas fechadas, uma à direita e outra à esquerda.
+                Qual você abre?</p>
+            <button class="btn-proximo" data-proximo="3">Direita</button>
+            <button class="btn-proximo" data-proximo="4">Esquerda</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+        <p>Você passa pelo corredor e vê sangue espalhado por várias partes e uma porta no final do corredor.
+            Seguir em frente e abrir a porta ou sair da Mansão</p>
+        <button class="btn-proximo" data-proximo="5">Ir Embora</button>
+        <button class="btn-proximo" data-proximo="4">Seguir em Frente</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Você abre a porta à sua direita e não vê nada.
+                Ir embora ou abrir a outra porta</p>
+            <button class="btn-proximo" data-proximo="5">Ir Embora</button>
+            <button class="btn-proximo" data-proximo="4">Abrir a outra porta</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+        <p>Assim que você abre a porta uma grande criatura pula em cima de você te deixando inconsciente
+            instantaneamente</p>
+            <img src="scary.png" alt="Freddy">
+        </div>
+
+        <div class="passo" id="passo-5">
+        <p>Você sai da mansão e vive por mais um dia</p>
+        <img src="happy.jpg" alt="Pessoas viva e feliz">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

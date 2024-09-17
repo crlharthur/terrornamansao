@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(88, 86, 86);
+    color: rgb(97, 4, 4);
+    font-family: "Bokor", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0%;
+}
+
+button{
+    background-color:rgb(209, 178, 1);
+    color: rgb(97, 4, 4);
+    font-family: "Bokor", system-ui;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 200%;
+}
+
+img{
+    max-width: 40%;
+}
